@@ -2,8 +2,17 @@
     <head>
         <script>
             let doit=()=> {
-                inputText=document.getElementById("userinput").value
-                alert(inputText);
+                inputText=document.getElementById("userinput").value;
+                if((inputText)>15)
+                {
+                    alert("baggage exceeds")
+                }
+                else
+                {
+                    alert("baggage is correct")
+                }
+            
+                alert(Number(inputText)+1);
             }
         </script>
 
