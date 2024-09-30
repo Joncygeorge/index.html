@@ -6,8 +6,8 @@ n=1000;
 function sumofMultiples(a,b,n){
 let sum =0;
 for(let i = 1; i<n; i++){
-    if(i%a==0||i%b==0){
-        sum+=i;
+    if(i % a == 0||i % b == 0){
+        sum+= i;
     }
 }
 return sum;
@@ -15,8 +15,10 @@ return sum;
 
 function cal(){
     const a = parseInt(document.getElementById('a').value);
-    const b= parseInt(document.getElementById('b').value);
+    const b = parseInt(document.getElementById('b').value);
     const n = parseInt(document.getElementById('n').value);
-    const result= sumofMultiples(a,b,n);
-    alert('The sum of multiples of numbers ${a} or ${b} below ${n} is: ${result}');
+    
+    const result = sumofMultiples(a,b,n);
+
+    alert(`The sum of multiples of numbers ${a} or ${b} below ${n} is: ${result}`);
 }
