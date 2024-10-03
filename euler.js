@@ -23,9 +23,9 @@ return sum;
 //     alert(`The sum of multiples of numbers ${a} or ${b} below ${n} is: ${result}`);
 // }
 function cal(){
-   const a=document.getElementById('a').value;
-  const  b=document.getElementById('b').value;
-   const n=document.getElementById('c').value;
+   const a=parseInt(document.getElementById('a').value);
+  const  b=parseInt(document.getElementById('b').value);
+   const n=parseInt(document.getElementById('c').value);
     document.getElementById('a').style.display="none";
     document.getElementById('b').style.display="none";
     document.getElementById('c').style.display="none";
