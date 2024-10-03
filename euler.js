@@ -13,12 +13,35 @@ for(let i = 1; i<n; i++){
 return sum;
 }
 
-function cal(){
-    const a = parseInt(document.getElementById('a').value);
-    const b = parseInt(document.getElementById('b').value);
-    const n = parseInt(document.getElementById('n').value);
+// function cal(){
+//     const a = parseInt(document.getElementById('a').value);
+//     const b = parseInt(document.getElementById('b').value);
+//     const n = parseInt(document.getElementById('n').value);
     
-    const result = sumofMultiples(a,b,n);
+//     const result = sumofMultiples(a,b,n);
 
-    alert(`The sum of multiples of numbers ${a} or ${b} below ${n} is: ${result}`);
+//     alert(`The sum of multiples of numbers ${a} or ${b} below ${n} is: ${result}`);
+// }
+function cal(){
+    a=document.getElementById('a').value;
+    b=document.getElementById('b').value;
+    c=document.getElementById('c').value;
+    document.getElementById('a').style.display="none";
+    document.getElementById('b').style.display="none";
+    document.getElementById('c').style.display="none";
+    document.getElementById('sum').style.display="none";
+    document.getElementById('label1').style.display="none";
+    document.getElementById('label2').style.display="none";
+    document.getElementById('label3').style.display="none";
+    sum(a,b,n);
+}
+function Show(){
+    document.getElementById('a').style.display="block";
+    document.getElementById('b').style.display="block";
+    document.getElementById('c').style.display="block";
+    document.getElementById('sum').style.display="block";
+    document.getElementById('label1').style.display="block";
+    document.getElementById('label2').style.display="block";
+    document.getElementById('label3').style.display="block";
+
 }
