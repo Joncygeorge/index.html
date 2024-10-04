@@ -10,7 +10,7 @@ for(let i = 1; i<n; i++){
         sum+= i;
     }
 }
-alert('sum'+sum)
+alert('sum')
 }
 
 // function cal(){
