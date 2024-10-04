@@ -25,10 +25,10 @@ return sum;
 function cal(){
    const a=parseInt(document.getElementById('a').value);
   const  b=parseInt(document.getElementById('b').value);
-   const n=parseInt(document.getElementById('c').value);
+   const n=parseInt(document.getElementById('n').value);
     document.getElementById('a').style.display="none";
     document.getElementById('b').style.display="none";
-    document.getElementById('c').style.display="none";
+    document.getElementById('n').style.display="none";
     document.getElementById('sum').style.display="none";
     document.getElementById('label1').style.display="none";
     document.getElementById('label2').style.display="none";
@@ -38,7 +38,7 @@ function cal(){
 function Show(){
     document.getElementById('a').style.display="block";
     document.getElementById('b').style.display="block";
-    document.getElementById('c').style.display="block";
+    document.getElementById('n').style.display="block";
     document.getElementById('sum').style.display="block";
     document.getElementById('label1').style.display="block";
     document.getElementById('label2').style.display="block";
