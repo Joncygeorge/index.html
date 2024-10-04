@@ -10,7 +10,7 @@ for(let i = 1; i<n; i++){
         sum+= i;
     }
 }
-return sum;
+alert('sum'+sum)
 }
 
 // function cal(){
@@ -33,7 +33,7 @@ function cal(){
     document.getElementById('label1').style.display="none";
     document.getElementById('label2').style.display="none";
     document.getElementById('label3').style.display="none";
-    const result = sumofMultiples(a,b,n);
+    sumofMultiples(a,b,n);
 }
 function Show(){
     document.getElementById('a').style.display="block";
