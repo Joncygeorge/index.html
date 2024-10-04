@@ -35,7 +35,7 @@ function cal(){
     document.getElementById('label3').style.display="none";
     const result = sumofMultiples(a,b,n);
 }
-function Clickhere(){
+function Show(){
     document.getElementById('a').style.display="block";
     document.getElementById('b').style.display="block";
     document.getElementById('c').style.display="block";
