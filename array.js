@@ -11,4 +11,4 @@ function sumOfMultiples(a, b, l) {
 }
 
 let result = sumOfMultiples(a, b, l);
-console.log(result);  // Output will be the sum of multiples of 2 or 3 in the list
+alert("Final sum of multiples of " + a + " or " + b + " is: " + result);  // Output will be the sum of multiples of 2 or 3 in the list
