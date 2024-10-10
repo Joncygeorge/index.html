@@ -1,7 +1,7 @@
 function calculateTotalCost(basket, prices) {
     let totalCost = 0;
     for (const product in basket) {
-        if (prices.product(product)) {
+        if (prices.hasownproduct(product)) {
             totalCost += basket[product] * prices[product];
         }
     }
