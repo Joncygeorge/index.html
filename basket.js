@@ -21,9 +21,9 @@ const basket = {
 };
 
 const prices = {
-    apple: 0.5,
-    banana: 0.2,
-    orange: 0.75
+    apple: 20,
+    banana: 5,
+    orange: 10
 };
 
 // Call the function to alert the total cost
