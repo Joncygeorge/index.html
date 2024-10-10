@@ -1,16 +1,12 @@
 function calculateTotalCost(basket, prices) {
     let totalCost = 0;
-
     for (const product in basket) {
-        if (prices.hasOwnProperty(product)) {
+        if (prices.product(product)) {
             totalCost += basket[product] * prices[product];
         }
     }
-
-    return totalCost;
+    alert(`Total cost: $${totalCost.toFixed(2)}`);
 }
-
-// Example usage:
 const basket = {
     apple: 2,
     banana: 3,
@@ -18,10 +14,8 @@ const basket = {
 };
 
 const prices = {
-    apple: 0.5,
-    banana: 0.2,
-    orange: 0.75
+    apple: 10,
+    banana: 5,
+    orange: 6
 };
-
-const total = calculateTotalCost(basket, prices);
-console.log(`Total cost: $${total.toFixed(2)}`);
+calculateTotalCost(basket, prices);
