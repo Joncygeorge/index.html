@@ -10,7 +10,7 @@ function calculateTotalCost(basket, prices) {
     }
 
     // Alert the total cost instead of returning it
-    alert(`Total cost: $${totalCost.toFixed(2)}`);
+    alert(`Total cost: $${totalCost.toFixed(10)}`);
 }
 
 // Example usage:
